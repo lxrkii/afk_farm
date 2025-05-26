@@ -3,7 +3,7 @@
 SendMode, Input
 SetTitleMatchMode, 2
 
-targetWindowTitle := "Notepad"
+targetWindowTitle := "Notepad" 
 toggle := false
 
 End::
@@ -20,6 +20,7 @@ SendKeysToWindow:
 if !WinExist(targetWindowTitle) {
     return
 }
+
 
 ControlSend,, w, %targetWindowTitle%
 Sleep, 200
