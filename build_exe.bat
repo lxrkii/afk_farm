@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --add-data "ca972d4385fc783cb7405cb8c0776ed1.ico;." --add-data "link.ico;." --icon=ca972d4385fc783cb7405cb8c0776ed1.ico --name "Extra Hands" --distpath Extra_Hands main.py
